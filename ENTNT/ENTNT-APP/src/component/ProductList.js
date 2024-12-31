@@ -43,7 +43,7 @@ const ProductList = ({ products, onDelete, onEdit }) => {
                                                             <div className="card-body">
                                                                 <h5 className="card-text">Quantity: {item.quantity}</h5>
                                                                 <h5 className="card-text">Category: {item.category}</h5>
-                                                                <h6 className="card-text">&#36; {item.price}</h6>
+                                                                <h6 className="card-text">&#8377; {item.price}</h6>
                                                             </div>
                                                         </div>
                                                         <div className="col-md-4 col-4" style={{ display: "flex", alignItems: "center" }}>
