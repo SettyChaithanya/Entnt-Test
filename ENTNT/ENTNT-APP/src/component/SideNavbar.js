@@ -14,7 +14,7 @@ const SideNavbar = ({ sidenavbar, setSidenavbar }) => {
             <div className=" flex-column flex-shrink-0 p-3 text-bg-dark position-fixed sidenavbar" style={{ width: sidenavbar ? "225px" : "80px", minHeight: "100vh" }}>
                 {
                     sidenavbar ?
-                        <h5 style={{ display: "flex" }} >ERP Management<FontAwesomeIcon icon={faBars} style={{ color: "#618ad1", marginLeft: "35px" }} size='xl' onClick={() => setSidenavbar(!sidenavbar)} />
+                        <h5 style={{ display: "flex" }} >ENTNT APPLICATION<FontAwesomeIcon icon={faBars} style={{ color: "#618ad1", marginLeft: "35px" }} size='xl' onClick={() => setSidenavbar(!sidenavbar)} />
                         </h5>
                         : <center><FontAwesomeIcon icon={faBars} style={{ color: "#618ad1" }} size='xl' onClick={() => setSidenavbar(!sidenavbar)} /></center>
                 }
