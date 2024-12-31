@@ -59,11 +59,11 @@ const Dashboard = ({ sidenavbar }) => {
                             <div className="row g-0" style={{ flexWrap: "nowrap" }}>
                                 <div className="col-md-8 col-8">
                                     <div className="card-body">
-                                        <h2 className="card-title">&#36; {total_revenue}</h2>
+                                        <h2 className="card-title">&#8377; {total_revenue}</h2>
                                         <h5 className="card-text">Total Revenue</h5>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-4" style={{ display: "flex", alignItems: "center" }}>
+                                <div className="col-md-4 col-4" style={{ display: "flex", alignItems: "center", width:"12ex", height:"20ex" }}>
                                     <img src="./Image/revenue.png" className="img-fluid rounded-start" alt="revenue" />
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const Dashboard = ({ sidenavbar }) => {
                                 <p><strong>Total revenue:</strong></p>
                             </div>
                             <div className='col-md-4'>
-                                <p><strong>&#36; 100.00</strong></p>
+                                <p><strong>&#8377; 2240.00</strong></p>
                             </div>
                         </div>
                         <div className='row'>
@@ -106,7 +106,7 @@ const Dashboard = ({ sidenavbar }) => {
                                 <p><strong>Order Delivered:</strong></p>
                             </div>
                             <div className='col-md-4'>
-                                <p><strong>2</strong></p>
+                                <p><strong>1</strong></p>
                             </div>
                         </div>
                     </div>
