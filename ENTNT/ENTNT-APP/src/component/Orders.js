@@ -150,7 +150,7 @@ const Orders = ({ sidenavbar }) => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="exampleInputPassword1" className="form-label">Total Amount</label>
-                  <h6>&#36; {editedOrder.total_amount}</h6>
+                  <h6>&#8377; {editedOrder.total_amount}</h6>
                 </div>
                 <div className='row'>
                   <div className='col-md-5'>
