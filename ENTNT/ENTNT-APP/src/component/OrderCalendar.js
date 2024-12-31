@@ -55,7 +55,7 @@ const OrderCalendar = ({ orders }) => {
                                                 <td>{order.date}</td>
                                                 <td>{order.expected_delivery}</td>
                                                 <td>{order.status}</td>
-                                                <td>&#36; {order.total_amount}</td>
+                                                <td>&#8377; {order.total_amount}</td>
                                             </tr>
                                         </tbody>
                                     ))}
