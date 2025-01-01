@@ -20,7 +20,11 @@ git clone https://github.com/SettyChaithanya/Entnt-Test/tree/main/ENTNT/ENTNT-AP
 
 2. Navigate to the project directory:
 
-cd ERP-Management
+cd Entnt-Test-main
+
+cd ENTNT
+
+cd ENTNT-APP
 
 3. Install dependencies using npm or yarn:
 
